@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Student Management</h1>
+        <p>Add, view, and remove student records</p>
+    </header>
+
+    <main>
+        <section class="form-card">
+            <h2>Add a Student</h2>
+
+            <form id="studentForm">
+                <label for="name">Student Name</label>
+                <input id="name" name="name" type="text"
+                       placeholder="Enter student name" required>
+
+                <label for="email">Email Address</label>
+                <input id="email" name="email" type="email"
+                       placeholder="Enter email address" required>
+
+                <label for="course">Course</label>
+                <input id="course" name="course" type="text"
+                       placeholder="Enter course name" required>
+
+                <button type="submit">Add Student</button>
+                <p id="message" role="status"></p>
+            </form>
+        </section>
+
+        <section class="students-card">
+            <h2>Student List</h2>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Course</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="studentTable">
+                        <tr>
+                            <td colspan="5">Loading students...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Student Management</h1>
+        <p>Add, view, and remove student records</p>
+    </header>
+
+    <main>
+        <section class="form-card">
+            <h2>Add a Student</h2>
+
+            <form id="studentForm">
+                <label for="name">Student Name</label>
+                <input id="name" name="name" type="text"
+                       placeholder="Enter student name" required>
+
+                <label for="email">Email Address</label>
+                <input id="email" name="email" type="email"
+                       placeholder="Enter email address" required>
+
+                <label for="course">Course</label>
+                <input id="course" name="course" type="text"
+                       placeholder="Enter course name" required>
+
+                <button type="submit">Add Student</button>
+                <p id="message" role="status"></p>
+            </form>
+        </section>
+
+        <section class="students-card">
+            <h2>Student List</h2>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Course</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="studentTable">
+                        <tr>
+                            <td colspan="5">Loading students...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
